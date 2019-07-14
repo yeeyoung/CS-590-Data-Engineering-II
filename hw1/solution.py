@@ -40,7 +40,7 @@ print(to_db2[0])
 print(to_db2[1])
 
 cur.execute("DROP TABLE IF EXISTS airports;")
-cur.execute("CREATE TABLE airports (AIRPORT_ID text, FULL_AIRPORT_ID text);")
+cur.execute("CREATE TABLE airports (AIRPORT_ID number, FULL_AIRPORT_ID text);")
 cur.executemany("INSERT INTO airports VALUES(?,?);", to_db2)
 
 with open('cancellations.csv', 'r') as cancellations_table:
