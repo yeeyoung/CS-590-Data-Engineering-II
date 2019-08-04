@@ -1,0 +1,28 @@
+{
+	"_id": {
+		"$oid": "5d45be66cc313a710a43f93c"
+	},
+	"CODE": "C",
+	"CODE_DESCRIPTION": "National Air System"
+}
+{
+	"_id": {
+		"$oid": "5d45be66cc313a710a43f93d"
+	},
+	"CODE": "B",
+	"CODE_DESCRIPTION": "Weather"
+}
+{
+	"_id": {
+		"$oid": "5d45be66cc313a710a43f93e"
+	},
+	"CODE": "A",
+	"CODE_DESCRIPTION": "Carrier"
+}
+{
+	"_id": {
+		"$oid": "5d45be66cc313a710a43f93f"
+	},
+	"CODE": "D",
+	"CODE_DESCRIPTION": "Security"
+}
